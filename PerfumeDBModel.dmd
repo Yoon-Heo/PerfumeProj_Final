@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PerfumeDBModel" id="15AA3602-C501-E53B-4B22-7CE5264FCD71" version="3.5">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 12:30:34 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>15AA3602-C501-E53B-4B22-7CE5264FCD71</designId>
+</OSDM_Design>

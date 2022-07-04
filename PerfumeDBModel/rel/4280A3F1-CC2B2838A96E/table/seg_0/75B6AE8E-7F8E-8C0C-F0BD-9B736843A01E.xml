@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75B6AE8E-7F8E-8C0C-F0BD-9B736843A01E" name="PRODUCT">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 12:44:46 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="E767EE15-BFEB-9A90-3F8B-F34A778F60D7">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 15:11:27 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="D19ADD17-694F-E5C4-6D74-178F336A927F">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 13:19:53 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRAND" id="B4EAEF59-CCC1-345C-A24A-FAB7C656BA3E">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 13:20:07 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="12CCDF29-3A0F-DE6A-478C-6E20B1BC1D56">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 13:20:15 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE1" id="F246C82B-A201-A5D2-268A-170BFFF7D9BF">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 13:21:12 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE2" id="8857FFBF-6F43-D4F5-E833-97FC922C63BE">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 13:21:16 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE3" id="9059D3E3-3E3B-E28F-DF72-240FFDC4D80B">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 13:21:21 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C2162B7-6E69-F83D-699D-72859FCCC676" name="PRODUCT_PK">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:50:57 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E767EE15-BFEB-9A90-3F8B-F34A778F60D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
