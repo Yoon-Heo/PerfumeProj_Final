@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66C98D97-F186-DCDE-11C9-93A429D99A90" name="NOTICE">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:25:38 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOTICE_ID" id="2D26D6A9-44CD-65F5-C4EF-19C5EB1AA036">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:26:04 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WRITER_ID" id="F7257385-DB6F-D098-534B-7A071BDAF292">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 16:03:16 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8E6C992-E13D-EFFB-C2A9-BC849AC97206" referredColumn="34157B73-C61D-0F45-B7DB-40EC7A4288ED"/>
+</associations>
+</Column>
+<Column name="TITLE" id="896E4B12-0157-EDDE-C751-24802E721BC2">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:26:04 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="28A41E4F-610C-1297-5819-6A6CD53B3927">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:26:04 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGDATE" id="6A90B7C1-3256-D2F6-ADBB-D9B60678BEE8">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:26:04 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY" id="0982804E-599B-A5E3-A508-9ADED1DB701C">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-20 07:59:59 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E317F243-F2B8-C728-5ED1-3B746155E1DF" name="NOTICE_PK">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 16:03:16 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D26D6A9-44CD-65F5-C4EF-19C5EB1AA036"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81CC7221-DD19-4ECF-2870-109BE4CCFB25" name="NOTICE_MEMBER_FK">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 16:03:27 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7257385-DB6F-D098-534B-7A071BDAF292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

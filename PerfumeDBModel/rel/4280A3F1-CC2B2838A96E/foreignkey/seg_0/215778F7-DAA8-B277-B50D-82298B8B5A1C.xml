@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="215778F7-DAA8-B277-B50D-82298B8B5A1C" containerWithKeyObject="38DF446A-D9DA-43C4-F007-A351D5CB734C" localFKIndex="9D71DF69-3745-C21E-9602-A157000557BB" name="ORDER_DETAIL_PRODUCT_FK">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 15:58:37 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<referredTableLongName>PRODUCT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>75B6AE8E-7F8E-8C0C-F0BD-9B736843A01E</referredTableID>
+<keyObject>8C2162B7-6E69-F83D-699D-72859FCCC676</keyObject>
+<referredKeyID>8C2162B7-6E69-F83D-699D-72859FCCC676</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRODUCT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

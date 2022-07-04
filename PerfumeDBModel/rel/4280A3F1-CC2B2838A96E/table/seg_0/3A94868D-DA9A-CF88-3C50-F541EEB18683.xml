@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A94868D-DA9A-CF88-3C50-F541EEB18683" name="REVIEW">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:27:00 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCT_ID" id="61154BDA-6715-48F9-E5E0-AFBAB9C7BDF6">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:27:46 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WRITER_ID" id="19D37DD8-1E68-0327-4CC5-E3F68922D2FB">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:27:46 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F56265BB-40EA-A891-E14E-0184DE20A696" referredColumn="34157B73-C61D-0F45-B7DB-40EC7A4288ED"/>
+</associations>
+</Column>
+<Column name="REVIEW_ID" id="5FC27527-3EBA-B3FC-A9A1-C3A877067DD0">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:27:46 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGDATE" id="A4561FD5-843B-FC5A-C235-DE5BA2652627">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:27:46 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENT" id="0FA442B1-4552-9BF3-14F2-FC875455E85E">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 14:27:46 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_PRODUCT_ID" id="11B0FA3C-37A4-9FC1-3770-576AA50EEB72">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 16:11:27 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6ECC8E2-E67F-6510-4CAF-F32016C206D5" referredColumn="E767EE15-BFEB-9A90-3F8B-F34A778F60D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="72ABD025-EB5E-11DD-CD52-94D9EE0AAD49" name="REVIEW_PK">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 15:06:35 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FC27527-3EBA-B3FC-A9A1-C3A877067DD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="430341ED-2EB9-DD8C-39FB-5694680B3D8D" name="REVIEW_MEMBER_FK">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 15:01:08 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19D37DD8-1E68-0327-4CC5-E3F68922D2FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="208329CF-3281-90D3-02F5-60A994923BEA" name="REVIEW_PRODUCT_FK">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 16:01:21 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11B0FA3C-37A4-9FC1-3770-576AA50EEB72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

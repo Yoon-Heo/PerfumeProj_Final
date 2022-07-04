@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Perfume" id="4280A3F1-57DC-3171-9206-CC2B2838A96E" mainViewID="B2D042BB-2424-DE31-6275-4B762083E664">
+<createdBy>ishcj</createdBy>
+<createdTime>2022-04-15 12:30:38 UTC</createdTime>
+<ownerDesignName>PerfumeDBModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
